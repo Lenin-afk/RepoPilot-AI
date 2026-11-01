@@ -1,8 +1,7 @@
 """Retrieval helpers for RepoPilot AI.
 
-This package turns text (code chunks and search questions) into
-numerical embeddings. Vector storage comes later; this package only
-creates the vectors.
+This package turns text into embeddings and stores those vectors in
+FAISS so a question can find nearby code chunks.
 """
 
 from repopilot_ai.retrieval.embedding_generator import (
@@ -11,10 +10,12 @@ from repopilot_ai.retrieval.embedding_generator import (
     DEFAULT_MODEL_NAME,
     EmbeddingGenerator,
 )
+from repopilot_ai.retrieval.vector_store import VectorStore
 
 __all__ = [
     "DEFAULT_DEVICE",
     "DEFAULT_EMBEDDING_DIMENSION",
     "DEFAULT_MODEL_NAME",
     "EmbeddingGenerator",
+    "VectorStore",
 ]
