@@ -1,7 +1,7 @@
 [project]
 name = "repopilot-ai"
 version = "0.1.0"
-description = "Add your description here"
+description = "Local, grounded answers about Python repositories using retrieval-augmented generation"
 readme = "README.md"
 authors = [
     { name = "Lenin", email = "leninrithick@gmail.com" }
