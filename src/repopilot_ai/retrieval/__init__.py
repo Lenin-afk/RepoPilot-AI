@@ -10,9 +10,11 @@ from repopilot_ai.retrieval.embedding_generator import (
     DEFAULT_MODEL_NAME,
     EmbeddingGenerator,
 )
+from repopilot_ai.retrieval.retriever import CodeRetriever
 from repopilot_ai.retrieval.vector_store import VectorStore
 
 __all__ = [
+    "CodeRetriever",
     "DEFAULT_DEVICE",
     "DEFAULT_EMBEDDING_DIMENSION",
     "DEFAULT_MODEL_NAME",
