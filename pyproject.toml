@@ -7,7 +7,9 @@ authors = [
     { name = "Lenin", email = "leninrithick@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "sentence-transformers>=6.2.0",
+]
 
 [project.scripts]
 repopilot-ai = "repopilot_ai:main"
